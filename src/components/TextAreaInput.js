@@ -7,6 +7,7 @@ const TextAreaInputStyle = styled.textarea`
   resize: none;
   font-family: 'Fira Sans', sans-serif;    
   font-size: 14px;
+  color: #1E2227;
   border: 2px solid ${props => !props.filled ? "#95A5A6" : "transparent"};
   ${props => props.error && `
      border: 2px solid #E74C3C;

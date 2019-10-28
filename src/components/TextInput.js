@@ -6,6 +6,7 @@ const TextInputStyle = styled.input`
   border: none;
   font-family: 'Fira Sans', sans-serif;    
   font-size: 17px;
+  color: #1E2227;
   border-bottom: 2px solid ${props => !props.filled ? props.theme.grey : "transparent"};
   ${props => props.error && `
      border-bottom: 2px solid #E74C3C;
@@ -17,6 +18,7 @@ const TextInputStyle = styled.input`
      color: #95A5A6
      `
   }
+  background: #FFFFFF;
   border-radius: 0px;
   padding: 0;
   width: 341px;
