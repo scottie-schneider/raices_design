@@ -8,14 +8,14 @@ storiesOf('Images', module)
   // .addDecorator(withKnobs)
   .add('200x250', () => <Image 
     src={"https://res.cloudinary.com/dvqw5uhrr/image/upload/v1570485388/Raices/HomePhotos/352_Hall_St.jpg"}
-    round={false}
+    round={true}
     height={"250px"}
     width={"200px"}
     shadow
   />)
   .add('88x88', () => <Image 
     src={"https://res.cloudinary.com/dvqw5uhrr/image/upload/v1570485388/Raices/HomePhotos/352_Hall_St.jpg"}
-    round={false}
+    round={true}
     height={"88px"}
     width={"88px"}
     shadow={true}
