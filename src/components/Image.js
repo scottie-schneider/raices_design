@@ -36,3 +36,5 @@ export default function Image({src, round, height, width, shadow, agent, profile
     />
   );
 }
+
+export { ImageStyle }
