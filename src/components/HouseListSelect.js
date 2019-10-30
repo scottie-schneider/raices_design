@@ -37,7 +37,7 @@ const HouseInterfaceHolder = styled.div`
   }
   .subtitle {
     font-size: 15px;
-    color: #42464C;
+    color: #D3D9DD;
     width: auto;
   }
   .price {
