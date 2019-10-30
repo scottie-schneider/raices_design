@@ -5,6 +5,7 @@ import ChatBubbles from './ChatBubbles';
 import LargeAgentCard from './LargeAgentCard';
 import AgentMapCard from './AgentMapCard';
 import SmallAgentCard from './SmallAgentCard';
+import SmallHorizontalAgentCard from './SmallHorizontalAgentCard';
 
 storiesOf('Agent Cards', module)
   .addDecorator(story => <div style={{ padding: '3rem' }}>{story()}</div>)
@@ -12,4 +13,4 @@ storiesOf('Agent Cards', module)
   .add('Large Agent Card', () => <LargeAgentCard />)
   .add('Agent Map Card', () => <AgentMapCard />)
   .add('Small Agent Card', () => <SmallAgentCard />)
-  .add('Small Horizontal Agent Card', () => <ChatBubbles />)
+  .add('Small Horizontal Agent Card', () => <SmallHorizontalAgentCard />)

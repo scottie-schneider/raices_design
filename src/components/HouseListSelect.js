@@ -20,10 +20,12 @@ const HouseInterfaceHolder = styled.div`
   min-height: 0px;
   align-items: center;
   display: flex;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px 0 #D2D3D7;
   img {
     float: left;
     margin-right: 6px;
-    margin-left: 20px;
   }
   .text {
     display: flex;
