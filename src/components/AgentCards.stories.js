@@ -1,7 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 
-import ChatBubbles from './ChatBubbles';
 import LargeAgentCard from './LargeAgentCard';
 import AgentMapCard from './AgentMapCard';
 import SmallAgentCard from './SmallAgentCard';

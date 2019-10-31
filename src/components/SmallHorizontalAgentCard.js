@@ -29,6 +29,7 @@ const AgentInterfaceHolder = styled.div`
     margin-right: 6px;
   }
   .text {
+    padding-left: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

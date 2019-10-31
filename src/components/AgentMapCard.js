@@ -23,7 +23,7 @@ const AgentMapCardHolder = styled.div`
   }
   .info {
     height: 94px;
-    padding-top: 9px;
+    padding-top: 2px;
     padding-bottom: 9px;
     display: flex;
     flex-direction: column;
@@ -31,8 +31,6 @@ const AgentMapCardHolder = styled.div`
     padding-left: 10px;
   }
   .name {
-    padding-left: 10px;
-    padding-top: 9px;
     font-size: 20px;
     font-display: bold;
   }
@@ -56,7 +54,7 @@ export default function AgentMapCard() {
         shadow={false}
       />
       <div className="info">
-        <div className="mame">Jim Johnson</div>
+        <div className="name">Jim Johnson</div>
         <div className="specialties">Negotiation, Property Repair</div>
         <LargeRatingsComponent />
       </div>
