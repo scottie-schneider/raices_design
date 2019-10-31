@@ -3,13 +3,13 @@ import { storiesOf } from '@storybook/react';
 
 import LargeHomeCard from './LargeHomeCard';
 import HomeMapCard from './HomeMapCard';
-import SmallAgentCard from './SmallAgentCard';
-import SmallHorizontalAgentCard from './SmallHorizontalAgentCard';
+import SmallHomeCard from './SmallHomeCard';
+import SmallHorizontalHomeCard from './SmallHorizontalHomeCard';
 
 storiesOf('Home Cards', module)
   .addDecorator(story => <div style={{ padding: '3rem' }}>{story()}</div>)
   // .addDecorator(withKnobs)
   .add('Large Home Card', () => <LargeHomeCard />)
   .add('Home  Map Card', () => <HomeMapCard />)
-  .add('Small Home Card', () => <SmallAgentCard />)
-  .add('Small Horizontal Home Card', () => <SmallHorizontalAgentCard />)
+  .add('Small Home Card', () => <SmallHomeCard />)
+  .add('Small Horizontal Home Card', () => <SmallHorizontalHomeCard />)
