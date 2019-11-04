@@ -17,6 +17,7 @@ const LargeAgentCardHolder = styled.div`
   box-shadow: 0 5px 10px 0 #D2D3D7;
   font-family: 'Fira Sans', sans-serif;
   overflow: hidden;
+  margin-right: 15px;
   color: #1E2227;
   .info {
     height: 46px;

@@ -6,7 +6,8 @@ import Image from './Image'
 import SmallInfo from './SmallInfo';
 
 const AgentMapCardHolder = styled.div`
-  display: grid;
+  display: flex;
+  flex-direction: column;
   grid-gap: 0px;
   columns: 1fr;
   background-color: #fff;
@@ -22,8 +23,7 @@ const AgentMapCardHolder = styled.div`
     border-bottom: 5px solid #2ECC71;
   }
   .info {
-    padding: .5rem;
-    line-height: 1.6em;
+    height: 94px;
     padding-top: 9px;
     padding-bottom: 9px;
     display: flex;
@@ -32,7 +32,8 @@ const AgentMapCardHolder = styled.div`
     padding-left: 10px;
   }
   .address {
-    font-size: 2rem;
+    padding-top: 9px;
+    font-size: 30px;
     font-display: bold;
   }
   .price {

@@ -52,14 +52,6 @@ export default function SearchInput() {
           color={"#1E2227"}
         />
       </SearchInputHolder>
-      <SearchInputHolder>
-        <SearchInputStyle filled={false} value="Jerry b"/>
-        <SearchIcon 
-          height={"28px"}
-          width={"28px"}
-          color={"#1E2227"}
-        />
-      </SearchInputHolder>
     </div>
   );
 }
