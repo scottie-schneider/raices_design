@@ -9,9 +9,11 @@ const AgentMapCardHolder = styled.div`
   display: grid;
   grid-gap: 0px;
   columns: 1fr;
+  margin-right: 10px;
   background-color: #fff;
-  height: 228px;
-  width: 330px;
+  min-height: 228px;
+  min-width: 330px;
+  margin-bottom: 10px;
   border-radius: 0px;
   box-shadow: 0 5px 10px 0 #D2D3D7;
   font-family: 'Fira Sans', sans-serif;

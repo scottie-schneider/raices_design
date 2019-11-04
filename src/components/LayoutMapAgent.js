@@ -2,11 +2,17 @@ import React from 'react';
 import styled from 'styled-components'
 import PropTypes from 'prop-types';
 
-import HomeMapCard from './HomeMapCard';
+import AgentMapCard from './AgentMapCard';
 
 const MapLayout = styled.div`  
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
   display: grid;
   grid-gap: 0px;
+  overflow: hidden;
   grid-template-columns: 1.5fr auto; 
   grid-template-rows: auto;
   height: 100vh;
@@ -17,40 +23,55 @@ const MapLayout = styled.div`
     display: none;
   }
   .map {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
     grid-area: map;
     margin-bottom: 10px;
     min-height: 500px;
     background: white url("https://res.cloudinary.com/dvqw5uhrr/image/upload/v1572896259/Raices/Screen_Shot_2019-11-04_at_2.36.41_PM.png");
     background-size: cover;
+    overflow: hidden;
   }
-  .houseCards {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 331px));
-    margin-right: 10px;
-    min-height: 500px;
+  .agentCards {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
     overflow-y: scroll;
-    grid-area: houseCards;
-    margin-bottom: 10px;        
-    grid-gap: 20px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    right: 0;
+    z-index: 2;
     height: 100%;
-  }
-  .houseCard {
-    border: 1px solid purple;
-    height: 228px;
-  }
-  .footer {
-    grid-area: footer;
-    border: 1px solid red;
+    min-height: 100%;
+    margin-top: 10px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    z-index: 2;
   }
   @media (max-width: 1000px) {
-    grid-template-areas: 
-      "map map"
-      "houseCards houseCards";
-    .houseCards {
-      margin-right: 0px;
-      height: inherit;
-      overflow: visible;
+    .map {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .agentCards {
+      position: fixed;
+      display: flex;
+      flex-direction: row;
+      overflow-x: scroll;
+      align-items: flex-end;
+      justify-content: flex-start;
+      width: 100%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 2;
+      height: 100px;
     }
   }
   @media (max-width: 600px) {
@@ -74,19 +95,14 @@ const MapLayout = styled.div`
 }
 `
 
-export default function LayoutMap() {
+export default function LayoutMapAgent() {
   return (
     <MapLayout>
       <div class="map">
       </div>
-      <div class="houseCards">
-        <HomeMapCard className="houseCard"/>
-        <HomeMapCard className="houseCard"/>
-        <HomeMapCard className="houseCard"/>
-        <HomeMapCard className="houseCard"/>
-        <HomeMapCard className="houseCard"/>
-        <HomeMapCard className="houseCard"/>
-        <HomeMapCard className="houseCard"/>
+      <div class="agentCards">
+        <AgentMapCard />
+        
       </div>
       <div class="bottomNav">
         I'm the bottom Nav
