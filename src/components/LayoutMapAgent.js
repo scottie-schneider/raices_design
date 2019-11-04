@@ -47,6 +47,7 @@ const MapLayout = styled.div`
     height: 100%;
     min-height: 100%;
     margin-top: 10px;
+    margin-right: 10px;
     align-items: flex-end;
     justify-content: flex-start;
     z-index: 2;
@@ -81,6 +82,9 @@ const MapLayout = styled.div`
       "map"
       "houseCards"
       "bottomNav";
+    .agentCards {
+      margin-bottom: 15px;
+    }
     .bottomNav {
       position: fixed;
       display: flex;  

@@ -24,7 +24,7 @@ const AgentListLayout = styled.div`
     grid-area: largeCards;
     display: flex;
     overflow-x: auto;
-    height: inherit;    
+    height: 400px;     d
   }
   .headline {
     grid-area: headline;
