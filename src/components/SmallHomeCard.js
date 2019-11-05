@@ -7,6 +7,9 @@ import SmallRatingsComponent from './SmallRatingsComponent';
 
 const SmallHomeCardHolder = styled.div`
   display: flex;
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
   flex-direction: column;
   grid-gap: 0px;
   columns: 1fr;
@@ -15,11 +18,11 @@ const SmallHomeCardHolder = styled.div`
   width: 88px;
   min-width: 88px;
   border-radius: 8px;
-  box-shadow: 0 5px 10px 0 #D2D3D7;
+  transition: 0.3s;
   font-family: 'Fira Sans', sans-serif;
-  overflow: hidden;
+  margin-right: 10px;
+  border: 1px solid #D3D9DD;
   color: #1E2227;
-  margin-left: 16px;
   .info {
     height: 46px;
     padding-top: 9px;

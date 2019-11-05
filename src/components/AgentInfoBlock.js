@@ -12,7 +12,6 @@ const InfoBlockHolder = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-left: 10px;
   }
   .name {
     font-size: 20px;

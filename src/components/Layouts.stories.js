@@ -5,6 +5,7 @@ import LayoutMapHouse from './LayoutMapHouse';
 import LayoutMapAgent from './LayoutMapAgent';
 import LayoutAgentListDashboard from './LayoutAgentListDashboard';
 import LayoutAgentProfile from './LayoutAgentProfile';
+import LayoutAgentProfileGrid from './LayoutAgentProfileGrid';
 import HouseChatInterface from './HouseChatInterface'
 
 storiesOf('Layouts', module)
@@ -15,3 +16,4 @@ storiesOf('Layouts', module)
   .add('Agent List Dash', () => <LayoutAgentListDashboard />)
   // .add('House List Dash', () => <HouseChatInterface />)
   .add('Agent Profile', () => <LayoutAgentProfile />)
+  .add('Agent Profile Grid', () => <LayoutAgentProfileGrid />)
