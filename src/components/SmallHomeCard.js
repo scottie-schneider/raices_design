@@ -13,11 +13,13 @@ const SmallHomeCardHolder = styled.div`
   background-color: #fff;
   height: 134px;
   width: 88px;
+  min-width: 88px;
   border-radius: 8px;
   box-shadow: 0 5px 10px 0 #D2D3D7;
   font-family: 'Fira Sans', sans-serif;
   overflow: hidden;
   color: #1E2227;
+  margin-left: 16px;
   .info {
     height: 46px;
     padding-top: 9px;

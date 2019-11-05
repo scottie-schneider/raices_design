@@ -13,6 +13,7 @@ const AgentMapCardHolder = styled.div`
   background-color: #fff;
   min-height: 228px;
   min-width: 330px;
+  width: 330px;
   margin-bottom: 10px;
   border-radius: 0px;
   box-shadow: 0 5px 10px 0 #D2D3D7;

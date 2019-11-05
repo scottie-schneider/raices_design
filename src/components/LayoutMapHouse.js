@@ -47,6 +47,7 @@ const MapLayout = styled.div`
     height: 100%;
     min-height: 100%;
     margin-top: 10px;
+    margin-left: 10px;
     align-items: flex-end;
     justify-content: flex-start;
     z-index: 2;

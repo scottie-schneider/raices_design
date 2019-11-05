@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import PropTypes from 'prop-types';
 
 import Image from './Image'
-import LargeRatingsComponent from './LargeRatingsComponent';
+import AgentInfoBlock from './AgentInfoBlock';
 
 const LargeAgentCardHolder = styled.div`
   display: flex;
@@ -12,6 +12,7 @@ const LargeAgentCardHolder = styled.div`
   columns: 1fr;
   background-color: #fff;
   height: 344px;
+  width: 200px;
   min-width: 200px;
   border-radius: 8px;
   box-shadow: 0 5px 10px 0 #D2D3D7;
@@ -40,7 +41,6 @@ const LargeAgentCardHolder = styled.div`
   }
 `
 
-
 export default function LargeAgentCard() {
   return (
     <LargeAgentCardHolder>
@@ -51,11 +51,7 @@ export default function LargeAgentCard() {
         width={"200px"}
         shadow={false}
       />
-      <div className="info">
-        <div className="name">Jim Johnson</div>
-        <div className="specialties">Negotiation, Property Repair</div>
-        <LargeRatingsComponent />
-      </div>
+      <AgentInfoBlock />
     </LargeAgentCardHolder>
   ); 
 }

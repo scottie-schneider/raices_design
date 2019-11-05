@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 
 import Image from './Image'
 import LargeRatingsComponent from './LargeRatingsComponent';
+import AgentInfoBlock from './AgentInfoBlock';
 
 const AgentMapCardHolder = styled.div`
   display: flex;
@@ -18,6 +19,7 @@ const AgentMapCardHolder = styled.div`
   font-family: 'Fira Sans', sans-serif;
   overflow: hidden;
   color: #1E2227;
+  margin-bottom: 10px;
   :hover {
     box-shadow: 0 5px 10px 0 #3498DB;
   }
@@ -53,11 +55,12 @@ export default function AgentMapCard() {
         width={"150px"}
         shadow={false}
       />
-      <div className="info">
+      {/* <div className="info">
         <div className="name">Jim Johnson</div>
         <div className="specialties">Negotiation, Property Repair</div>
         <LargeRatingsComponent />
-      </div>
+      </div> */}
+      <AgentInfoBlock />
     </AgentMapCardHolder>
   ); 
 }

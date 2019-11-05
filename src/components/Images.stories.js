@@ -21,7 +21,7 @@ storiesOf('Images', module)
     shadow={true}
   />)
   .add('150x150 (agent profile)', () => <Image 
-    src={"https://res.cloudinary.com/dvqw5uhrr/image/upload/v1570485388/Raices/HomePhotos/352_Hall_St.jpg"}
+    src={"https://res.cloudinary.com/dvqw5uhrr/image/upload/v1570485457/Raices/AgentPhotos/Jim_Johnson.jpg"}
     round={false}
     height={"150px"}
     width={"150px"}
@@ -36,8 +36,13 @@ storiesOf('Images', module)
     round={false}
   />)
   .add('62x62 (small agent profile)', () => <Image 
-    src={"https://res.cloudinary.com/dvqw5uhrr/image/upload/v1570485388/Raices/HomePhotos/352_Hall_St.jpg"}
+    src={"https://res.cloudinary.com/dvqw5uhrr/image/upload/v1570485457/Raices/AgentPhotos/Jim_Johnson.jpg"}
     height={"62px"}
     width={"62px"}    
     profile
+  />)
+  .add('375x362 (large agent profile)', () => <Image 
+    src={"https://res.cloudinary.com/dvqw5uhrr/image/upload/v1570485457/Raices/AgentPhotos/Jim_Johnson.jpg"}
+    height={"362px"}
+    width={"375px"}    
   />)
