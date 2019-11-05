@@ -1,6 +1,5 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { withKnobs, boolean } from '@storybook/addon-knobs/react';
 
 import PrimaryButton from './PrimaryButton';
 import SmallButton from './SmallButton';

@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import LargeRatingsComponent from './LargeRatingsComponent';
 
 const InfoBlockHolder = styled.div`
+  border: 1px solid transparent;
   .info {
     height: 94px;
     padding-top: 9px;

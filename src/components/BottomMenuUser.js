@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components'
-import Link from 'next/link'; 
 import HomeIcon from './icons/HomeIcon'
 import ListIcon from './icons/ListIcon'
 import AgentIcon from './icons/AgentIcon'
@@ -57,7 +56,7 @@ export default function BottomMenuUser() {
     <BottomMenuHolder>
      <ul>
         <li>
-          <Link href="/atoms">
+          {/* <Link href="/atoms">
             <a>
               <HomeIcon 
                 height={20}
@@ -66,10 +65,10 @@ export default function BottomMenuUser() {
               />
               <p>Homes</p>
             </a>
-          </Link>           
+          </Link>            */}
         </li>
         <li>
-          <Link href="/molecules">
+          {/* <Link href="/molecules">
             <a>
               <ListIcon
                 height={20}
@@ -78,10 +77,10 @@ export default function BottomMenuUser() {
               />
               <p>Lists</p>
             </a>
-          </Link>                   
+          </Link>                    */}
         </li>
         <li>
-          <Link href="/organisms">
+          {/* <Link href="/organisms">
             <a>
               <AgentIcon 
                 height={20}
@@ -90,10 +89,10 @@ export default function BottomMenuUser() {
               />
               <p>Agents</p>
             </a>
-          </Link>                 
+          </Link>                  */}
         </li>
         <li>
-          <Link href="/templates">
+          {/* <Link href="/templates">
             <a>
               <ChatIcon
                 height={20}
@@ -102,7 +101,7 @@ export default function BottomMenuUser() {
               />
               <p>Chat</p>
             </a>
-          </Link>         
+          </Link>          */}
         </li>
         <li>
           <a href="/">

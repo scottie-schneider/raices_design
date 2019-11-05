@@ -8,6 +8,7 @@ import AgentInfoBlock from './AgentInfoBlock';
 const LargeAgentCardHolder = styled.div`
   display: flex;
   flex-direction: column;
+  box-sizing: content-box;
   grid-gap: 0px;
   columns: 1fr;
   background-color: #fff;

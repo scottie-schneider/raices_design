@@ -1,30 +1,19 @@
 {
-  "name": "raices_design",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook",
-    "build": "build-storybook -c .storybook -o .out"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.6.4",
-    "@storybook/addon-actions": "^5.2.5",
-    "@storybook/react": "^5.2.5",
-    "babel-loader": "^8.0.6",
-    "storybook-addon-react-live-edit": "^2.0.4"
+    "@storybook/react": "^5.2.4",
+    "babel-loader": "^8.0.6"
   },
   "dependencies": {
-    "@kadira/storybook-addon-knobs": "^1.7.1",
     "@storybook/addon-knobs": "^5.2.5",
-    "@storybook/addon-storysource": "^5.2.5",
-    "next": "^9.1.2",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "styled-components": "^4.4.0"
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "styled-components": "^4.4.1"
+  },
+  "scripts": {
+    "build": "build-storybook -c .storybook -o public",
+    "storybook": "start-storybook",
+    "dev": "start-storybook --port $PORT"
   }
 }
+
