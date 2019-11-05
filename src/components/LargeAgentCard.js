@@ -13,7 +13,9 @@ const LargeAgentCardHolder = styled.div`
   columns: 1fr;
   background-color: #fff;
   height: 344px;
+  max-height: 344px;
   width: 200px;
+  max-width: 200px;
   min-width: 200px;
   border-radius: 8px;
   box-shadow: 0 5px 10px 0 #D2D3D7;
