@@ -35,10 +35,12 @@ const SmallHomeCardHolder = styled.div`
     overflow: hidden;    
   }
   .address {
+    min-height: 14px;
     font-size: 11px;
     font-weight: bold;
     overflow: hidden;
     white-space: nowrap;
+    text-overflow: ellipsis;
   }
   .price {
     font-size: 14px;

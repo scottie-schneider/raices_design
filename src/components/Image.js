@@ -5,6 +5,8 @@ import PropTypes from 'prop-types';
 const ImageStyle = styled.img`
   height: ${props => props.height};
   width: ${props => props.width};
+  max-height: ${props => props.height};
+  max-width: ${props => props.width};
   box-shadow: ${props => props.shadow ? `0px 10px 10px 0px rgba(172, 177, 192, 50)` : "none"};
   object-fit: cover;
   ${props => props.round && `
