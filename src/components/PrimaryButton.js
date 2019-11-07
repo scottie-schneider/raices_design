@@ -17,6 +17,10 @@ const PrimaryButtonStyle = styled.button`
   }
   :active {
     background: #3D7D13;
+    outline: none;
+  }
+  :focus {
+    outline: none;
   }
 `
 
